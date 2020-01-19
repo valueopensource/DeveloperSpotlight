@@ -102,9 +102,9 @@
   display: flex;
   width: 50%;
   max-width: 800px;
-  margin-right: 50px;
-  margin-left: 50px;
-  padding: 20px;
+  margin-right: 0px;
+  margin-left: 10%;
+  padding: 40px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -113,9 +113,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 5px;
   background-color: #fff;
-  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.44);
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.28);
   color: #000;
 }
 
@@ -141,15 +141,15 @@
 }
 
 .heading {
+  margin-top: 0px;
   font-family: Gilroy, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .link {
   color: #000;
-}
-
-.div-block-2 {
-  width: 85%;
 }
 
 .section-2 {
@@ -174,7 +174,7 @@
   width: 100%;
   height: 100%;
   padding-right: 45px;
-  padding-left: 45px;
+  padding-left: 10%;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -233,6 +233,8 @@
 }
 
 .submit-button {
+  width: 100%;
+  border-radius: 5px;
   background-color: #007eff;
 }
 
@@ -242,9 +244,32 @@
   font-weight: 700;
 }
 
+.inputfiled {
+  border-radius: 3px;
+}
+
+.checkbox-label {
+  border-style: none;
+  border-color: #000;
+  color: #707070;
+  font-size: 13px;
+}
+
+.paragraph-copy {
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.link-2 {
+  color: #6e6c6c;
+}
+
 @media (max-width: 991px) {
   .div-block {
     width: 65%;
+    padding-top: 40px;
   }
   .body {
     background-position: 50% 50%;
@@ -273,6 +298,7 @@
   .div-block {
     margin-right: 20px;
     margin-left: 20px;
+    padding: 20px;
   }
   .body {
     background-position: 61% 50%;
@@ -280,11 +306,29 @@
     background-repeat: no-repeat;
   }
   .paragraph {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 13px;
+    line-height: 19px;
   }
   .heading {
-    font-size: 19px;
+    font-size: 15px;
+  }
+  .div-block-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .submit-button {
+    width: 100%;
+  }
+  .checkbox-label {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .checkbox-field {
+    font-size: 12px;
+  }
+  .paragraph-copy {
+    font-size: 10px;
+    line-height: 19px;
   }
 }
 
