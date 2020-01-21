@@ -100,7 +100,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 60%;
   max-width: 800px;
   margin-right: 0px;
   margin-left: 10%;
@@ -128,7 +128,7 @@
 }
 
 .paragraph {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 23px;
   font-weight: 400;
 }
@@ -277,6 +277,7 @@
 @media (max-width: 991px) {
   .div-block {
     width: 65%;
+    height: 540px;
     padding-top: 40px;
   }
   .body {
@@ -288,11 +289,24 @@
 }
 
 @media (max-width: 767px) {
+  .section {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   .div-block {
     width: 80%;
+    height: 479px;
+    margin-left: 0%;
+    padding: 10px 20px;
   }
   .body {
     background-position: 50% 50%;
+  }
+  .paragraph {
+    font-size: 13px;
+    line-height: 20px;
   }
   .heading {
     font-size: 25px;
@@ -300,13 +314,27 @@
   .div-block-2 {
     width: 100%;
   }
+  .checkbox-label {
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 479px) {
+  .section {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   .div-block {
+    height: 483px;
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .body {
     background-position: 61% 50%;
@@ -314,10 +342,11 @@
     background-repeat: no-repeat;
   }
   .paragraph {
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 11px;
+    line-height: 14px;
   }
   .heading {
+    margin-bottom: 0px;
     font-size: 15px;
   }
   .div-block-3 {
@@ -328,8 +357,8 @@
     width: 100%;
   }
   .checkbox-label {
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 10px;
+    line-height: 10px;
   }
   .checkbox-field {
     font-size: 12px;
@@ -337,6 +366,10 @@
   .paragraph-copy {
     font-size: 10px;
     line-height: 19px;
+  }
+  .paragraph-3 {
+    font-size: 9px;
+    line-height: 12px;
   }
 }
 
