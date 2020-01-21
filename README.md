@@ -11,6 +11,7 @@ If you are interested and willing to interview on camera and share your story pl
 Developer spotlight is a new show that xs:code team producing, focusing on open source developers and their projects.
 We are interested in hearing the stories behind your open source projects, why you have created them, how much time do you spend working and maintaining them.
 What motivates you as a developer to create and maintain an open-source project.
+The videos will be published in our YouTube channel.
 
 # Where can you find us
 This year we will be attending FOSDEM 2020.
