@@ -14,3 +14,5 @@ What motivates you as a developer to create and maintain an open-source project.
 
 # Where can you find us
 This year we will be attending FOSDEM 2020.
+Will update on the exact location once we arrive.
+You can also reach us on our discord channel : https://discord.gg/md7qZc
