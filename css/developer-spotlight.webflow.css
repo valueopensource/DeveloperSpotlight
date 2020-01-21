@@ -128,8 +128,8 @@
 }
 
 .paragraph {
-  font-size: 19px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 23px;
   font-weight: 400;
 }
 
@@ -264,6 +264,14 @@
 
 .link-2 {
   color: #6e6c6c;
+}
+
+.paragraph-3 {
+  text-align: center;
+}
+
+.link-3 {
+  color: #fff;
 }
 
 @media (max-width: 991px) {
