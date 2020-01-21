@@ -123,6 +123,7 @@
   background-image: url('../images/bg.jpg');
   background-position: 0px 0px;
   background-size: cover;
+  background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
