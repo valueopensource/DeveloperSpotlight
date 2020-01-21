@@ -128,8 +128,8 @@
 }
 
 .paragraph {
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 19px;
   font-weight: 400;
 }
 
@@ -252,7 +252,7 @@
   border-style: none;
   border-color: #000;
   color: #707070;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .paragraph-copy {
@@ -275,10 +275,17 @@
 }
 
 @media (max-width: 991px) {
+  .section {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   .div-block {
     width: 65%;
-    height: 540px;
-    padding-top: 40px;
+    height: 462px;
+    margin-left: 0%;
+    padding: 10px 20px;
   }
   .body {
     background-position: 50% 50%;
@@ -328,8 +335,8 @@
   }
   .div-block {
     height: 483px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 20px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
