@@ -129,7 +129,7 @@
 }
 
 .paragraph {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 19px;
   font-weight: 400;
 }
@@ -144,7 +144,7 @@
 .heading {
   margin-top: 0px;
   font-family: Gilroy, sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -275,6 +275,10 @@
   color: #fff;
 }
 
+.link-4 {
+  color: #000;
+}
+
 @media (max-width: 991px) {
   .section {
     -webkit-box-pack: center;
@@ -286,7 +290,7 @@
     width: 65%;
     height: 462px;
     margin-left: 0%;
-    padding: 10px 20px;
+    padding: 20px;
   }
   .body {
     background-position: 50% 50%;
@@ -317,6 +321,7 @@
     line-height: 20px;
   }
   .heading {
+    margin-bottom: 0px;
     font-size: 25px;
   }
   .div-block-2 {
@@ -329,19 +334,24 @@
 
 @media (max-width: 479px) {
   .section {
+    height: 100vh;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .div-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 90%;
-    height: 430px;
-    margin-top: -49px;
+    height: 464px;
+    margin-top: 25px;
     margin-right: 0px;
     margin-left: 0px;
     padding: 20px;
@@ -362,6 +372,10 @@
   .heading {
     margin-bottom: 0px;
     font-size: 15px;
+  }
+  .section-2 {
+    position: relative;
+    height: 5%;
   }
   .div-block-3 {
     padding-right: 20px;
@@ -384,6 +398,21 @@
   .paragraph-3 {
     font-size: 9px;
     line-height: 12px;
+  }
+  .div-block-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
