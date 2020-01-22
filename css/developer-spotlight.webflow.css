@@ -92,7 +92,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(0, 126, 255, 0.8);
 }
 
 .div-block {
@@ -120,7 +119,8 @@
 }
 
 .body {
-  background-image: url('../images/bg.jpg');
+  background-color: #fff;
+  background-image: url('../images/bgnew.jpg');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: fixed;
@@ -279,6 +279,14 @@
   color: #000;
 }
 
+.div-block-6 {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: #007eff;
+}
+
 @media (max-width: 991px) {
   .section {
     -webkit-box-pack: center;
@@ -380,6 +388,9 @@
   .div-block-3 {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .section-3 {
+    position: relative;
   }
   .submit-button {
     width: 100%;
